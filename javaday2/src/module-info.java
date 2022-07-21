@@ -1,0 +1,2 @@
+module javaday2 {
+}
