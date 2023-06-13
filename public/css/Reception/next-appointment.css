@@ -1,0 +1,45 @@
+.appointment-serach {
+background-color: #D4F6CC;
+border-color: #FFFAFA;
+color: #000;
+}
+.appointment-table {
+    margin: 0px;
+}
+ .appointment-table tr th , .appointment-table tr th td{
+    color: #fff;;
+}
+#list {
+    color: #fff;
+}
+.appointment-text,.appointment-date {
+    width: 30%;
+}
+.appointment-label {
+    float:right;
+    font-size: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+    .appointment-serach {
+        background-color: #D4F6CC;
+        border-color: #FFFAFA;
+        color: #000;
+        }
+        .appointment-table {
+            margin: 0vw;
+        }
+         .appointment-table tr th , .appointment-table tr th td{
+            color: #fff;;
+        }
+        #list {
+            color: #fff;
+        }
+        .appointment-text,.appointment-date {
+            width: 30%;
+        }
+        .appointment-label {
+            float:right;
+            font-size: 2.667vw;
+        }
+
+}

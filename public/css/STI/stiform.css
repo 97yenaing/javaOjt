@@ -1,0 +1,246 @@
+#toshow {
+    color: red;
+}
+
+#f44 h2 {
+    text-align: center;
+}
+
+#lastVisit_Date {
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(244, 105, 169);
+}
+
+.sti-colist li a {
+    color: #d4f6cc;
+}
+
+.sti-colist li {
+    margin-right: 2.5%;
+}
+
+.sti-Id .col-sm-2 {
+    width: 25%;
+}
+
+.assist-nav-ul li {
+    width: 20%;
+}
+
+.assist-sti {
+    background-color: #003865;
+}
+
+.LabTR-genital td {
+    width: 25%;
+}
+
+.LabTR-genital td label {
+    width: 70%;
+}
+
+.LabTR-genital {
+    margin: 1px;
+}
+
+.sti-risk,
+.sti-exam {
+    margin-bottom: 20px;
+}
+
+/* asssist Register Css &&  assist Physical Exam Css */
+.assist-nav-ul {
+    width: 90%;
+}
+
+.assist-parent-div {
+    background-color: #003865;
+}
+
+.register-first-section.phyExam-section,
+.LabRT-section,
+.assist-history {
+    padding: 0px 1%;
+    border: 1px solid #e9f8f9;
+    padding-bottom: 10px;
+}
+
+.register-second-section {
+    padding: 10px 1%;
+}
+
+.register-second-section h2,
+.LabRT-section h2,
+.assist-history h2 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #f5f5dc;
+}
+
+.sti-diagnosis {
+    width: 20%;
+}
+
+.sti-check {
+    width: 100%;
+    text-align: center;
+}
+
+#f44 h2,
+.sti-male h2,
+.sti-female h2,
+.sti-common h2,
+.LabTR-patient label {
+    font-size: 22px;
+    margin-bottom: 10px;
+
+    padding-bottom: 10px;
+}
+
+.sti-male h2,
+.sti-female h2,
+.sti-common h2,
+.sti-phymale h2 {
+    text-align: center;
+    border-bottom: none;
+    box-shadow: 0px 4px 5px #456a89;
+}
+
+.sti-male .row,
+.sti-female .row,
+.sti-common .row {
+    margin-bottom: 20px;
+}
+
+.sti-cervical-infection {
+    margin-bottom: 15px;
+}
+
+.LabRT-section h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #f5f5dc;
+}
+
+.LabTR-patient {
+    /* border: 1px solid #E9F8F9; */
+    /* padding: 5px 1%; */
+    margin-bottom: 10px;
+}
+
+.LabTR-genital table,
+.assist-history table {
+    color: #ffffff;
+    border: 1px solid #e9f8f9;
+    margin-top: 20px;
+}
+
+.LabRDT-treatment-checkbox,
+.LabRDT-treatment-allergy {
+    margin-left: 1%;
+    border: 1px solid #e9f8f9;
+    margin-bottom: 20px;
+    width: 98.2%;
+    padding-bottom: 20px;
+}
+
+/* .LabRDT-treatment-allergy {
+  border: 1px solid #E9F8F9;
+  margin-bottom: 20px;
+} */
+.LabRDT-treatment-checkbox input[type="checkbox"] {
+    height: 15px;
+    width: 18px;
+}
+
+.LabRDT-treatment-checkbox div {
+    margin: 10px 0px;
+    float: left;
+    width: 25%;
+    font-size: 19px;
+}
+
+.assist-history ul {
+    width: 20%;
+    float: left;
+}
+
+.general-id {
+    margin-top: 35px;
+}
+
+.female-row {
+    margin-bottom: 20px;
+}
+
+.calculate-score {
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculate-score button {
+    background-color: #dc3545;
+}
+
+.sti-risk-remark {
+    margin-bottom: 20px;
+}
+
+.show-button {
+    display: none;
+    justify-content: center;
+}
+
+.sti-button {
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.sti-female,
+.sti-common,
+.sti-phymale {
+    border: 1px solid #c060a1;
+    padding: 10px 1%;
+    margin: 1px;
+    margin-bottom: 20px;
+}
+
+.sti-common,
+.sti-phymale {
+    border: 1px solid #f0caa3;
+}
+
+.sti-male {
+    border: 1px solid #e9f8f9;
+    margin: 0px 1px 20px 1px;
+    padding: 10px 2%;
+}
+
+.sti-phySection {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.sti-score {
+  width: 100%;
+  height: 100%;
+  padding: 14px 0px;
+  font-size: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}

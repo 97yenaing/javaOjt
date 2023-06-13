@@ -1,0 +1,77 @@
+.content {
+    text-align: center;
+    /*  */
+}
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+li {
+    list-style: none;
+}
+.logo {
+    float: left;
+    width: 70px;
+    height: 70px;
+    padding-left: 2%;
+}
+.slick-slide {
+   
+    float: left;
+    /* width: 1.92%; */
+    height: 100%;
+    min-height: 1px;
+    margin-right: 2.5%;
+    /* width: 14%; */
+    text-align: center;
+}
+/* .slick-track .slick-slide:nth-child(1) {
+    margin-right: 0%;
+    display: none;
+}
+.slick-track .slick-slide:nth-child(6n) {
+    display: none;
+} */
+html, body {
+    background-color: #2C254A;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.welcome-photo {
+    width: 100%;
+}
+.deshboard {
+    background: url("./img/clinic.png") no-repeat center/cover;
+    padding: 235px;
+}
+.slider {
+    width: 100%;
+    padding-left: 0px;
+}
+.slider li {
+    width: 20%;
+    margin-right: 2%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.links > a {
+    /* color: #636b6f; */
+    color: #fff;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}

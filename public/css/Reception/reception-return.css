@@ -1,0 +1,23 @@
+.return-save {
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.return-input {
+    width: 30%;
+    margin-left: 3%;
+}
+@media screen and (min-width: 768px) and (max-width: 1099px){
+    return-save {
+        margin-bottom: 6.667vw;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .return-input {
+        width: 30%;
+        margin-left: 3%;
+    }
+
+}
